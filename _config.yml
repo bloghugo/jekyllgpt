@@ -1,7 +1,7 @@
 title: My Jekyll Blog
 description: Blog SEO dengan Jekyll
-baseurl: ""
-url: "https://example.com"
+baseurl: "https://bloghugo.github.io/jekyllgpt/"
+url: "https://bloghugo.github.io/jekyllgpt/"
 theme: minima
 paginate: 5
 plugins:
