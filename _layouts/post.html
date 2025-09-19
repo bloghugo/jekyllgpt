@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% include breadcrumb.html %}
+<article>
+  <h1>{{ page.title }}</h1>
+  <p><time>{{ page.date | date: "%d %B %Y" }}</time></p>
+  {% include toc.html %}
+  {{ content }}
+  {% include note.html text="Ini adalah catatan contoh." %}
+  {% include bacajuga.html %}
+  <p>Tags: {% for tag in page.tags %}<a href="{{ '/tags#' | append: tag | relative_url }}">{{ tag }}</a> {% endfor %}</p>
+</article>
+{% include authorbox.html %}

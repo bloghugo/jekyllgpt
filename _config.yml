@@ -1,0 +1,10 @@
+title: My Jekyll Blog
+description: Blog SEO dengan Jekyll
+baseurl: ""
+url: "https://example.com"
+theme: minima
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
